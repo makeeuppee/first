@@ -61,7 +61,7 @@ functions:
     handler: handler.hello
     events:
       - http:
-          path: /
+          path: /hello
           method: get
 #      - websocket: $connect
 #      - s3: ${env:BUCKET}
